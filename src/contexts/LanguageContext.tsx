@@ -11,13 +11,21 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [language, setLanguageState] = useState<Language>(() => {
-    const stored = localStorage.getItem('kdiaz-language');
-    return (stored as Language) || 'es';
+    try {
+      const stored = localStorage.getItem('kdiaz-language');
+      return (stored as Language) || 'es';
+    } catch {
+      return 'es';
+    }
   });
 
   const setLanguage = (lang: Language) => {
     setLanguageState(lang);
-    localStorage.setItem('kdiaz-language', lang);
+    try {
+      localStorage.setItem('kdiaz-language', lang);
+    } catch {
+      // Silently fail if localStorage is not available
+    }
   };
 
   useEffect(() => {
