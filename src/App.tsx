@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { LanguageProvider } from './contexts/LanguageContext';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
+import { Services } from './components/Services';
 import { IndibaPage } from './components/IndibaPage';
 import { About } from './components/About';
 import { Prices } from './components/Prices';
@@ -35,6 +36,7 @@ function App() {
           <Header />
           <main>
           <Hero onOpenPriceGuide={() => setIsPriceGuideOpen(true)} />
+          <Services />
           <IndibaPage />
           <About />
           <Prices />
