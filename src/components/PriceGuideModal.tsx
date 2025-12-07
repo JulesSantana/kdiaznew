@@ -26,7 +26,7 @@ export function PriceGuideModal({ isOpen, onClose }: PriceGuideModalProps) {
             </div>
             <div className="relative">
               <img
-                src="/guia_precios_1 copy.jpg"
+                src="/image copy copy copy copy copy.png"
                 alt="Lista de precios - K•Diaz Face & Body"
                 className="w-full h-auto rounded-lg border border-[#D4AF37]/30"
               />
@@ -61,7 +61,7 @@ export function PriceGuideModal({ isOpen, onClose }: PriceGuideModalProps) {
                 onClick={(e) => e.stopPropagation()}
               />
               <img
-                src="/guia_precios_1 copy.jpg"
+                src="/image copy copy copy copy copy.png"
                 alt="Lista de precios - K•Diaz Face & Body"
                 className="w-full h-auto"
                 onClick={(e) => e.stopPropagation()}
