@@ -19,7 +19,7 @@ export function PriceGuideModal({ isOpen, onClose }: PriceGuideModalProps) {
           <div className="grid md:grid-cols-2 gap-4">
             <div className="relative">
               <img
-                src="/image0(29).jpeg"
+                src="/guia_precios_1.jpg"
                 alt="Lista de precios - K•Diaz Face & Body"
                 className="w-full h-auto rounded-lg border border-[#D4AF37]/30"
               />
@@ -55,7 +55,7 @@ export function PriceGuideModal({ isOpen, onClose }: PriceGuideModalProps) {
           <div className="min-h-screen py-20 px-4 flex items-start justify-center">
             <div className="grid md:grid-cols-2 gap-6 w-full max-w-7xl">
               <img
-                src="/image0(29).jpeg"
+                src="/guia_precios_1.jpg"
                 alt="Lista de precios - K•Diaz Face & Body"
                 className="w-full h-auto"
                 onClick={(e) => e.stopPropagation()}
