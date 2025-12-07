@@ -70,7 +70,7 @@ export function Hero({ onOpenPriceGuide }: HeroProps) {
               <div className="absolute bottom-0 right-0 w-20 h-20 border-b-2 border-r-2 border-[#D4AF37]/60" />
 
               <img
-                src="/image0(13) copy.jpeg"
+                src="/image0(13).jpeg"
                 alt="Katherine Diaz - Founder & Aesthetic Medicine Specialist"
                 className="w-full h-full object-cover"
               />
