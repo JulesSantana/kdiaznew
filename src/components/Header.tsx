@@ -86,7 +86,7 @@ export function Header() {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-[#D4AF37]/10 via-[#E7C766]/5 to-transparent rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <img
-                  src="/image2(5).jpeg"
+                  src="/image2(5) copy.jpeg"
                   alt="Katherine Diaz - Face & Body Studio"
                   className="h-12 w-auto relative z-10 drop-shadow-[0_0_12px_rgba(212,175,55,0.4)] group-hover:drop-shadow-[0_0_20px_rgba(212,175,55,0.6)] transition-all duration-500"
                   style={{ filter: 'contrast(1.05) brightness(1.05)' }}
