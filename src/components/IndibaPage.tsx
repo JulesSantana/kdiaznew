@@ -21,7 +21,7 @@ export function IndibaPage() {
   const [maintenanceCarePageOpen, setMaintenanceCarePageOpen] = useState(false);
 
   const serviceBackgrounds = [
-    '/image copy copy copy copy copy copy.png', // Radiofrecuencia INDIBA
+    '/image_copy_copy_copy_copy_copy_copy copy.png', // Radiofrecuencia INDIBA
     '/image copy copy copy copy copy copy copy.png', // Diatermia facial
     '/image_copy_copy_copy_copy_copy_copy_copy_copy.png', // Limpieza facial profunda
     '/image_copy_copy_copy_copy_copy_copy_copy_copy_copy.png', // Cicatrices y acné
