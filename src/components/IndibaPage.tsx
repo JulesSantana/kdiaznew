@@ -26,7 +26,7 @@ export function IndibaPage() {
     '/image_copy_copy_copy_copy_copy_copy_copy_copy.png', // Limpieza facial profunda
     '/image_copy_copy_copy_copy_copy_copy_copy_copy_copy.png', // Cicatrices y acné
     '/image_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy.png', // Remodelación corporal
-    '/image copy copy copy copy copy copy copy copy copy copy copy.png', // Cuidado de mantenimiento
+    '/image_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy.png', // Cuidado de mantenimiento
   ];
 
   const handleServiceClick = (index: number) => {
