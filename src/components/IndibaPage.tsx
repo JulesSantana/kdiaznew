@@ -23,7 +23,7 @@ export function IndibaPage() {
   const serviceBackgrounds = [
     '/image copy copy copy copy copy copy.png', // Radiofrecuencia INDIBA
     '/image copy copy copy copy copy copy copy.png', // Diatermia facial
-    '/image copy copy copy copy copy copy copy copy.png', // Limpieza facial profunda
+    '/image_copy_copy_copy_copy_copy_copy_copy_copy.png', // Limpieza facial profunda
     '/image copy copy copy copy copy copy copy copy copy.png', // Cicatrices y acné
     '/image copy copy copy copy copy copy copy copy copy copy.png', // Remodelación corporal
     '/image copy copy copy copy copy copy copy copy copy copy copy.png', // Cuidado de mantenimiento
