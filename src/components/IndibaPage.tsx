@@ -113,7 +113,7 @@ export function IndibaPage() {
           <section className="relative bg-gradient-to-br from-[#D4AF37]/5 via-transparent to-transparent border border-[#2A2A2A]/20 rounded-3xl p-12 overflow-hidden">
             <div
               className="absolute inset-0 bg-cover bg-center opacity-20"
-              style={{ backgroundImage: "url('/image1(10).jpeg')" }}
+              style={{ backgroundImage: "url('/image_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy_copy copy.png')" }}
             />
             <div className="relative z-10 text-center mb-8">
               <Sparkles className="w-12 h-12 text-[#D4AF37] mx-auto mb-4" />
