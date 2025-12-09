@@ -128,7 +128,7 @@ export function Footer() {
               {/* Logo container */}
               <div className="relative z-10 w-12 h-12 sm:w-14 sm:h-14 overflow-hidden rounded-lg transition-all duration-300 group-hover:shadow-[0_0_20px_rgba(59,130,246,0.4)]">
                 <img
-                  src="/PHOTO-2025-10-15-17-20-34.jpg"
+                  src="/photo-2025-10-15-17-20-34.jpg"
                   alt="Lumina Web"
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                 />
