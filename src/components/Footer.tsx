@@ -13,7 +13,14 @@ export function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <div className="flex items-center gap-3 mb-4 relative group">
+            <a
+              href="#hero"
+              className="flex items-center gap-3 mb-4 relative group cursor-pointer focus:outline-none focus:ring-2 focus:ring-[#D4AF37] rounded-lg"
+              onClick={(e) => {
+                e.preventDefault();
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }}
+            >
               {/* Ambient Glow Layer */}
               <div className="absolute -inset-4 bg-gradient-to-r from-[#D4AF37]/0 via-[#D4AF37]/10 to-[#D4AF37]/0 rounded-lg blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
 
@@ -56,7 +63,7 @@ export function Footer() {
                 <div className="relative">
                   <div className="absolute inset-0 bg-gradient-to-br from-[#D4AF37]/10 via-[#E7C766]/5 to-transparent rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                   <img
-                    src="/image2(5).jpeg"
+                    src="/image2(5) copy copy.jpeg"
                     alt="Katherine Diaz"
                     className="h-20 w-auto relative z-10 drop-shadow-[0_0_12px_rgba(212,175,55,0.4)] group-hover:drop-shadow-[0_0_20px_rgba(212,175,55,0.6)] transition-all duration-500"
                     style={{ filter: 'contrast(1.05) brightness(1.05)', transform: 'scaleX(1.3)' }}
@@ -72,7 +79,7 @@ export function Footer() {
               </div>
 
 
-            </div>
+            </a>
           </div>
 
           <div>
