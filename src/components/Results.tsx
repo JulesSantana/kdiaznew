@@ -4,14 +4,14 @@ import { X } from 'lucide-react';
 
 export function Results() {
   const { t } = useLanguage();
-  const [selectedImage, setSelectedImage] = useState<{ image: string; label: string; showFullImage?: boolean } | null>(null);
+  const [selectedImage, setSelectedImage] = useState<{ image: string; label: string } | null>(null);
 
   const results = [
     { image: '/image1(7).jpeg', label: 'Before' },
     { image: '/image5(2).jpeg', label: 'Before' },
     { image: '/image2(12).jpeg', label: 'Before / After' },
     { image: '/image2(10).jpeg', label: 'After' },
-    { image: '/guia_precios_1 copy.jpg', label: 'After', showFullImage: true },
+    { image: '', label: 'After' },
     { image: '/image3(5).jpeg', label: 'Before / After' },
   ];
 
@@ -42,7 +42,7 @@ export function Results() {
                     src={result.image}
                     alt={result.label}
                     className={`absolute inset-0 w-full h-full transition-all duration-500 group-hover:scale-105 ${
-                      result.showFullImage ? 'object-contain' : result.isSpecial ? 'object-cover object-center' : 'object-cover'
+                      result.isSpecial ? 'object-cover object-center' : 'object-cover'
                     }`}
                     style={result.isSpecial ? {
                       objectPosition: '50% 45%',
@@ -98,7 +98,7 @@ export function Results() {
             <img
               src={selectedImage.image}
               alt={selectedImage.label}
-              className={`absolute inset-0 w-full h-full ${selectedImage.showFullImage ? 'object-contain' : 'object-cover object-center'}`}
+              className="absolute inset-0 w-full h-full object-cover object-center"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
             <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/90 via-black/60 to-transparent">
