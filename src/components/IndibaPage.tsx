@@ -24,7 +24,7 @@ export function IndibaPage() {
     '/image copy copy copy copy copy copy.png', // Radiofrecuencia INDIBA
     '/image copy copy copy copy copy copy copy.png', // Diatermia facial
     '/image_copy_copy_copy_copy_copy_copy_copy_copy.png', // Limpieza facial profunda
-    '/image copy copy copy copy copy copy copy copy copy.png', // Cicatrices y acné
+    '/image_copy_copy_copy_copy_copy_copy_copy_copy_copy.png', // Cicatrices y acné
     '/image copy copy copy copy copy copy copy copy copy copy.png', // Remodelación corporal
     '/image copy copy copy copy copy copy copy copy copy copy copy.png', // Cuidado de mantenimiento
   ];
