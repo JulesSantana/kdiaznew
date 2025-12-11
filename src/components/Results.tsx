@@ -11,7 +11,7 @@ export function Results() {
     { image: '/image5(2).jpeg', label: 'Before' },
     { image: '/image2(12).jpeg', label: 'Before / After' },
     { image: '/image2(10).jpeg', label: 'After' },
-    { image: '', label: 'After' },
+    { image: '/image3(3) copy.jpeg', label: 'After' },
     { image: '/image3(5).jpeg', label: 'Before / After' },
   ];
 
