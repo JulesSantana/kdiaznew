@@ -20,22 +20,22 @@ export function Prices() {
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           {/* Left Card Slot */}
           <div className="relative rounded-2xl overflow-hidden border border-[#D4AF37]/30 bg-[#0B0B0C] shadow-[0_0_40px_rgba(212,175,55,0.15)] transition-all duration-300 hover:shadow-[0_0_60px_rgba(212,175,55,0.25)] hover:scale-[1.02]">
-            <div className="aspect-[3/4] relative">
+            <div className="relative min-h-[800px]">
               <img
                 src="/guia_precios_1.jpg"
                 alt="Lista de precios - K•Diaz Face & Body"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             </div>
           </div>
 
           {/* Right Card Slot */}
           <div className="relative rounded-2xl overflow-hidden border border-[#D4AF37]/30 bg-[#0B0B0C] shadow-[0_0_40px_rgba(212,175,55,0.15)] transition-all duration-300 hover:shadow-[0_0_60px_rgba(212,175,55,0.25)] hover:scale-[1.02]">
-            <div className="aspect-[3/4] relative">
+            <div className="relative min-h-[800px]">
               <img
                 src="/image0(30).jpeg"
                 alt="Lista de precios - K•Diaz Face & Body"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             </div>
           </div>
